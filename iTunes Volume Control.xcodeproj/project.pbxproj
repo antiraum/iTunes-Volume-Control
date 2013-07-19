@@ -44,7 +44,6 @@
 		651A7EED168F1F4C00A76288 /* BorderlessWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderlessWindow.m; sourceTree = "<group>"; };
 		651A7EEE168F1F4C00A76288 /* BorderlessWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderlessWindow.h; sourceTree = "<group>"; };
 		651A7EF1168F226300A76288 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = ../../../../../System/Library/Frameworks/QuartzCore.framework; sourceTree = "<group>"; };
-		653492751690ACD300B73CA3 /* volume.ai */ = {isa = PBXFileReference; lastKnownFileType = text; name = volume.ai; path = "iTunes Volume Control/Images/volume.ai"; sourceTree = "<group>"; };
 		6563BFD61692EAB500C1271D /* volume-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "volume-off.png"; path = "iTunes Volume Control/Images/volume-off.png"; sourceTree = "<group>"; };
 		656C6C67168A2A0B00ECA482 /* iTunes Volume Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes Volume Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		656C6C6B168A2A0B00ECA482 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -59,7 +58,6 @@
 		656C6CA2168A456900ECA482 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
 		657F9C4E168F349100818384 /* volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = volume.png; path = "iTunes Volume Control/Images/volume.png"; sourceTree = "<group>"; };
 		658BE2BD1699FF89009623A7 /* iTunesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesIcon.png; path = "iTunes Volume Control/Images/iTunesIcon.png"; sourceTree = "<group>"; };
-		658BE2C0169A0160009623A7 /* iTunesIcon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesIcon.psd; path = "iTunes Volume Control/Images/iTunesIcon.psd"; sourceTree = "<group>"; };
 		6597CCE61698BA05005F54C1 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = "iTunes Volume Control/Sparkle.framework"; sourceTree = "<group>"; };
 		65C24BF8168CB0750000BFC2 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = "iTunes Volume Control/icon.icns"; sourceTree = "<group>"; };
 		65C24C00168CBC7E0000BFC2 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Credits.rtf; path = "iTunes Volume Control/Credits.rtf"; sourceTree = "<group>"; };
@@ -67,9 +65,7 @@
 		65C24C65168CEB130000BFC2 /* AppleRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleRemote.m; sourceTree = "<group>"; };
 		65C24C66168CEB130000BFC2 /* CompatibilityFixes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompatibilityFixes.h; sourceTree = "<group>"; };
 		65C24C6B168CEB9D0000BFC2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		65CC785B1692FC1300BFD4AD /* statusbar-item-off.ai */ = {isa = PBXFileReference; lastKnownFileType = text; name = "statusbar-item-off.ai"; path = "iTunes Volume Control/Images/statusbar-item-off.ai"; sourceTree = "<group>"; };
 		65CC785C1692FC1300BFD4AD /* statusbar-item-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "statusbar-item-off.png"; path = "iTunes Volume Control/Images/statusbar-item-off.png"; sourceTree = "<group>"; };
-		65CC785D1692FC1300BFD4AD /* statusbar-item-on.ai */ = {isa = PBXFileReference; lastKnownFileType = text; name = "statusbar-item-on.ai"; path = "iTunes Volume Control/Images/statusbar-item-on.ai"; sourceTree = "<group>"; };
 		65CC785E1692FC1300BFD4AD /* statusbar-item-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "statusbar-item-on.png"; path = "iTunes Volume Control/Images/statusbar-item-on.png"; sourceTree = "<group>"; };
 		65CC786A169305C700BFD4AD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,13 +155,9 @@
 		65C24BEB168CA8B50000BFC2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				658BE2C0169A0160009623A7 /* iTunesIcon.psd */,
 				658BE2BD1699FF89009623A7 /* iTunesIcon.png */,
-				65CC785B1692FC1300BFD4AD /* statusbar-item-off.ai */,
 				65CC785C1692FC1300BFD4AD /* statusbar-item-off.png */,
-				65CC785D1692FC1300BFD4AD /* statusbar-item-on.ai */,
 				65CC785E1692FC1300BFD4AD /* statusbar-item-on.png */,
-				653492751690ACD300B73CA3 /* volume.ai */,
 				657F9C4E168F349100818384 /* volume.png */,
 				6563BFD61692EAB500C1271D /* volume-off.png */,
 				65C24BF8168CB0750000BFC2 /* icon.icns */,
